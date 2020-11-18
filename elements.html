@@ -1,0 +1,118 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Core of the Roar</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </head>
+<body>
+
+<header>
+    <div  class="grid-container sticky-container"  data-sticky-container>
+        <div class="grid-x sticky" data-sticky data-sticky-on="medium">
+            <div class="small-6 cell">
+                <a id="logo" href="index.html"> <img src="assets/img/grizzly-logo-metallic.png" alt="Grizzly" ></a>
+            </div>
+            <div class="small-6 cell hide-for-medium">
+                <div data-responsive-toggle="responsive-menu" data-hide-for="medium">
+                  <button class="menu-icon float-right" type="button" data-toggle="responsive-menu"></button>
+                </div>
+            </div>
+            <div class="medium-6 cell">
+                <ul id="responsive-menu" class="vertical medium-horizontal menu align-right">
+                    <li><a href="/index.html">Brand Guide</a></li>
+                    <li><a href="/elements.html">Style Guide</a></li>
+                    <li><a href="#">Showcase</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+    
+<div class="grid-container">
+    <div class="grid-x">
+        
+        <div class="medium-4 cell show-for-medium animate__animated animate__fadeIn">
+            <nav class="sticky-container" data-sticky-container>
+                <div class="sticky" data-sticky data-sticky-on="large" data-margin-top="10" style="width:100%">
+                  <ul class="vertical menu" data-magellan>
+                    <li>
+                        <a href="#visuals">Visuals</a>
+                            <ul class="vertical menu nested">
+                                <li><a href="#">Logos</a></li>
+                                <li><a href="#">Typography</a></li>
+                                <li>
+                                    <a href="#photography">Photography &amp; Video</a>
+                                        <ul class="vertical menu nested">
+                                            <li><a href="#">Casting</a></li>
+                                        </ul>
+                                </li>
+                                <li><a href="#">Illustration, Motion &amp; Animation</a></li>
+                                <li><a href="#">Brand Elements</a></li>
+                                <li><a href="#">Colors</a></li>
+                            </ul>
+                      </li>
+                      <li>
+                        <a href="#copy">Copy</a>
+                            <ul class="vertical menu nested">
+                                <li><a href="#">The Grizzly Voice</a></li>
+                                <li><a href="#">Grammar &amp; Punctuation</a></li>
+                                <li><a href="#">Pro Tips</a></li>
+                            </ul>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+
+        <div class="medium-8 cell">
+            
+            <section id="visuals" class="nested top">
+                <article id="logos" >
+                    <h1>Logos</h1>
+                </article>
+                <article id="typography" >
+                    <h1>Typography</h1>
+                </article>
+                <article id="photography" >
+                    <h1>Photography &amp; Video</h1>
+                </article>
+                <article id="illustration" >
+                    <h1>Illustration, Motion &amp; Animation</h1>
+                </article>
+                <article id="elements" >
+                    <h1>Brand Elements</h1>
+                </article>
+                <article id="colors" >
+                    <h1>Colors</h1>
+                </article>
+            </section>
+
+            <section id="copy" class="nested">
+                <article id="voice" >
+                    <h1>The Grizzly Voice</h1>
+                </article>
+                <article id="grammar" >
+                    <h1>Grammar &amp; Punctuation</h1>
+                </article>
+                <article id="tips" >
+                    <h1>Pro Tips</h1>
+                </article>
+            </section>
+            
+        </div>
+
+</div>
+</div>
+
+<script src="assets/js/app.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
